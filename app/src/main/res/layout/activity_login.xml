@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@drawable/bglogin">
+
+    <TextView
+            android:id="@+id/text"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/tvUsuario"
+            android:textSize="30dp"
+            android:padding="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textEmailAddress"
+              android:hint="@string/hcuenta"
+              android:layout_marginLeft="60dp"
+              android:layout_marginRight="60dp"
+              android:textColor="@color/white"
+              android:textColorHint="#33FFFFFF"
+              android:gravity="center"
+              android:id="@+id/etloginAccount"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#33FFFFFF"
+            android:maxLength="6"
+            android:hint="@string/hpassword"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:id="@+id/etloginPassword"/>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/bBotonSubmit"
+            android:gravity="center"
+            android:id="@+id/bSubmit"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="40dp">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="@string/tvNotiene"
+                  android:textColor="@color/white"
+                  android:layout_marginTop="20dp"
+        />
+        <Button android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:text="@string/bBotonRegistrarse"
+                android:gravity="center"
+                android:id="@+id/bRegister"/>
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PruebaLab2</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="hcuenta">Account</string>
+    <string name="hpassword">Password</string>
+    <string name="bBotonSubmit">Submit</string>
+    <string name="tvNotiene">No tienes cuenta todavia ?</string>
+    <string name="bBotonRegistrarse">Register</string>
+    <string name="tvUsuario">User</string>
+    <string name="tvRegistro">Registro</string>
+    <string name="hRegistrarpassword">Password</string>
+    <string name="hRepetirpassword">Confirm Password</string>
+    <string name="hcorreo">Email</string>
+    <string name="bBotonConfirmar">Accept</string>
+    <string name="mCerrarSession">Cerrar sesion</string>
+</resources>

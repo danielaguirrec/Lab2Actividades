@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:background="@drawable/bglogin">
+
+    <TextView
+            android:id="@+id/textRegistro"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/tvRegistro"
+
+            android:padding="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="30dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textEmailAddress"
+              android:hint="@string/hcorreo"
+              android:layout_marginLeft="60dp"
+              android:layout_marginRight="60dp"
+              android:textColor="@color/white"
+              android:textColorHint="#33FFFFFF"
+              android:gravity="center"
+              android:id="@+id/etRegistrarEmail"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#33FFFFFF"
+            android:maxLength="6"
+            android:hint="@string/hRegistrarpassword"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:id="@+id/etRegistrarPassword"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#33FFFFFF"
+            android:maxLength="6"
+            android:hint="@string/hRepetirpassword"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:id="@+id/etRepetirPassword"/>
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/bBotonConfirmar"
+            android:gravity="center"
+            android:id="@+id/bConfirmaRegister"/>
+
+</LinearLayout>
+
+
